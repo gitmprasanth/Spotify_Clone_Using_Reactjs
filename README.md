@@ -16,9 +16,9 @@ A feature-rich **Spotify App** built with **React.js**, allowing users to explor
 - **Styled Components / tailwind CSS** 🎨
 
 ## Homepage 
-![Alt txt](public\homepage.png)
+![Alt txt](public/homepage.png)
 
 ## Display page
-![Alt txt](public\display.png)
+![Alt txt](public/display.png)
 
 
