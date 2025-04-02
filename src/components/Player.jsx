@@ -1,18 +1,20 @@
 import React, { useContext } from 'react'
 import { assets, songsData } from '../assets/assets'
 import { PlayerContext } from '../context/PlayerContext.jsx'
+import { useNavigate } from 'react-router-dom';
 const Player = () => {
   const {track,seekbar,seekBg,playStatus,play,pause,time,previous,next,seekSong}=useContext(PlayerContext);
+  const nav=useNavigate()
   return (
-    <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
-      <div className='hidden lg:flex items-center gap-4'>
+    <div className='md:h-[10%] bg-black flex justify-between items-center text-white px-4 h-[20%]  ' onClick={()=>{nav("/")}}>
+      <div className='hidden lg:flex items-center gap-4 sm:block'>
          <img  className="w-12" src={track.image} alt="" />
          <div>
             <p>{track.name}</p>
             <p>{track.desc}</p>
          </div>
       </div>
-      <div className='flex flex-col items-center gap-1 m-auto'>
+      <div className='flex flex-col items-center gap-1 m-auto' >
         <div className='flex gap-4 '>
             <img src={assets.shuffle_icon} alt="shuffle" className='w-4 cursor-pointer' />
             <img onClick={ previous} src={assets.prev_icon} alt="prev" className='w-4 cursor-pointer' />

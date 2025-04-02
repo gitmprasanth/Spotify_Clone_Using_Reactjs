@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Sidebar = () => {
   const navigate=useNavigate()
   return (
-    <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
+    <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden  lg:flex  '>
       <div onClick={()=>navigate('/')} className='bg-[#121212] h-15% rounded flex flex-col justify-around'>
         <div className='flex items-center gap-3 p-4 cursor-pointer'>
             <img src={assets.home_icon} alt="home"  className='w-6 ' />
@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <img src={assets.stack_icon} alt="stack" className='w-8' />
                 <p className='font-semibold'>Your Library</p>
             </div>
-            <div className='flex items-center gap-3'>
+            <div className='flex items-center gap-3 '>
               <img src={assets.arrow_icon} alt="arrow" className='w-5'/>
               <img src={assets.plus_icon} alt="plus" className='w-5' />
             </div>

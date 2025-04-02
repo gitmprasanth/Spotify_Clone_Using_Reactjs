@@ -8,7 +8,6 @@ A feature-rich **Spotify App** built with **React.js**, allowing users to explor
 - **Playback Controls**: Play, pause, and skip tracks.
 - **Navigation**: Smooth routing with React Router.
 - **State Management**: Uses **Context API** or local state.
-- **Responsive UI**: Optimized for all devices.
 
 ## Technologies Used 💻
 - **React.js** ⚛️
