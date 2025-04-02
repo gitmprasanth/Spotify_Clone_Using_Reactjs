@@ -3,8 +3,6 @@
 A feature-rich **Spotify App** built with **React.js**, allowing users to explore music, manage playlists, and enjoy a seamless listening experience.
 
 ## Features ✨
-- **Search Music**: Find songs, albums, and artists.
-- **Playlist Management**: Create, edit, and share playlists.
 - **Playback Controls**: Play, pause, and skip tracks.
 - **Navigation**: Smooth routing with React Router.
 - **State Management**: Uses **Context API** or local state.
